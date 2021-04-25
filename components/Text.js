@@ -4,9 +4,11 @@ import cn from "classnames";
 
 const Text = ({ children, color, size, uppercase }) => (
   <p
-    className={cn("font-serif", "tracking-wider", {
+    className={cn("font-serif", "tracking-wider", "text-center", {
       "text-white": color === Text.COLOR.WHITE,
+      "text-gold": color === Text.COLOR.GOLD,
       "text-xl": size === Text.SIZE.XL,
+      "text-lg": size === Text.SIZE.MD,
       "text-sm": size === Text.SIZE.SM,
       uppercase: uppercase,
     })}
@@ -22,6 +24,7 @@ Text.COLOR = Object.freeze({
 
 Text.SIZE = Object.freeze({
   SM: "sm",
+  MD: "md",
   XL: "xl",
 });
 

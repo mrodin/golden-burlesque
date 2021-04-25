@@ -6,14 +6,16 @@ module.exports = {
       heading: ["Train One", "cursive"],
       serif: ["Playfair Display", "serif"],
     },
-    backgroundColor: (theme) => ({
-      ...theme("colors"),
-      wine: "#4d0000",
-    }),
     extend: {
       backgroundImage: (theme) => ({
         intro: "url('/img/intro.jpg')",
       }),
+      backgroundColor: (theme) => ({
+        wine: "#4d0000",
+      }),
+      textColor: {
+        gold: "#e0d2bd",
+      },
     },
   },
   variants: {

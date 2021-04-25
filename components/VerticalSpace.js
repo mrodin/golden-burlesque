@@ -5,8 +5,9 @@ import cn from "classnames";
 const VerticalSpace = ({ size }) => (
   <div
     className={cn({
-      "my-2": size === VerticalSpace.SIZE.SM,
-      "my-5": size === VerticalSpace.SIZE.LG,
+      "py-2": size === VerticalSpace.SIZE.SM,
+      "py-5": size === VerticalSpace.SIZE.LG,
+      "py-7": size === VerticalSpace.SIZE.XL,
     })}
   />
 );
@@ -14,6 +15,7 @@ const VerticalSpace = ({ size }) => (
 VerticalSpace.SIZE = Object.freeze({
   SM: "sm",
   LG: "lg",
+  XL: "xl",
 });
 
 VerticalSpace.propTypes = {
