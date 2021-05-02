@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { Header, CoverImage, TextSectionOne } from "sections";
+import { Header, CoverImage, TextSectionOne, Gallery } from "sections";
 
 const Home = () => (
   <div>
@@ -24,6 +24,7 @@ const Home = () => (
         <CoverImage />
       </div>
       <TextSectionOne />
+      <Gallery />
     </main>
   </div>
 );

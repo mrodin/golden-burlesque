@@ -38,6 +38,4 @@ const TextSectionOne = () => (
   </div>
 );
 
-TextSectionOne.propTypes = {};
-
 export default TextSectionOne;

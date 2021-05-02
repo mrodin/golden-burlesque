@@ -16,6 +16,9 @@ module.exports = {
       textColor: {
         gold: "#e0d2bd",
       },
+      gridTemplateRows: {
+        gallery: "50vw",
+      },
     },
   },
   variants: {
