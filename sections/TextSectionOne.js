@@ -1,9 +1,16 @@
 import React from "react";
 
-import { VerticalSpace, Divider, Heading, Text, Button } from "components";
+import {
+  MarginLayout,
+  VerticalSpace,
+  Divider,
+  Heading,
+  Text,
+  Button,
+} from "components";
 
 const TextSectionOne = () => (
-  <div className="px-80">
+  <MarginLayout>
     <VerticalSpace size={VerticalSpace.SIZE.XL} />
     <Divider />
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
@@ -35,7 +42,7 @@ const TextSectionOne = () => (
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <Divider />
     <VerticalSpace size={VerticalSpace.SIZE.XL} />
-  </div>
+  </MarginLayout>
 );
 
 export default TextSectionOne;

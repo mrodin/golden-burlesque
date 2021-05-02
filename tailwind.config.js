@@ -7,17 +7,20 @@ module.exports = {
       serif: ["Playfair Display", "serif"],
     },
     extend: {
-      backgroundImage: (theme) => ({
-        intro: "url('/img/intro.jpg')",
-      }),
       backgroundColor: (theme) => ({
         wine: "#4d0000",
       }),
+      backgroundImage: (theme) => ({
+        intro: "url('/img/intro.jpg')",
+      }),
+      gridTemplateRows: {
+        gallery: "50vw",
+      },
       textColor: {
         gold: "#e0d2bd",
       },
-      gridTemplateRows: {
-        gallery: "50vw",
+      width: {
+        "5xl": "64rem",
       },
     },
   },

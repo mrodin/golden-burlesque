@@ -1,10 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 const MarginLayout = ({ children }) => (
-  <div className="flex flex-col mx-96">{children}</div>
+  <div className="flex flex-col items-center px-8">
+    <div className="max-w-5xl">{children}</div>
+  </div>
 );
-
-MarginLayout.propTypes = {};
 
 export default MarginLayout;
