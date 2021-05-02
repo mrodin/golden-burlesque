@@ -13,6 +13,9 @@ module.exports = {
       backgroundImage: (theme) => ({
         intro: "url('/img/intro.jpg')",
       }),
+      gridTemplateColumns: {
+        logo: "repeat(auto-fit, 10rem)",
+      },
       gridTemplateRows: {
         gallery: "100vw 100vw",
         "gallery-full": "50vw",

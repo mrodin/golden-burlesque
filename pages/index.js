@@ -7,6 +7,7 @@ import {
   TextSectionOne,
   Gallery,
   TextSectionTwo,
+  Clients,
 } from "sections";
 
 const Home = () => (
@@ -41,7 +42,7 @@ const Home = () => (
         width="100%"
         height="100%"
       />
-      <TextSectionTwo />
+      <Clients />
     </main>
   </div>
 );
