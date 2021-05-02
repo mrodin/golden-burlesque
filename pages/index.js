@@ -1,6 +1,12 @@
 import Head from "next/head";
 
-import { Header, CoverImage, TextSectionOne, Gallery } from "sections";
+import {
+  Header,
+  CoverImage,
+  TextSectionOne,
+  Gallery,
+  TextSectionTwo,
+} from "sections";
 
 const Home = () => (
   <div>
@@ -25,6 +31,7 @@ const Home = () => (
       </div>
       <TextSectionOne />
       <Gallery />
+      <TextSectionTwo />
     </main>
   </div>
 );
