@@ -14,7 +14,8 @@ module.exports = {
         intro: "url('/img/intro.jpg')",
       }),
       gridTemplateRows: {
-        gallery: "50vw",
+        gallery: "100vw 100vw",
+        "gallery-full": "50vw",
       },
       textColor: {
         gold: "#e0d2bd",
