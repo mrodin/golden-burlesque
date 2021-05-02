@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ReactPlayer from "react-player";
 
 import {
   Header,
@@ -31,6 +32,15 @@ const Home = () => (
       </div>
       <TextSectionOne />
       <Gallery />
+      <TextSectionTwo />
+      <ReactPlayer
+        url="gb_trailer.mp4"
+        playing
+        loop
+        volume={0}
+        width="100%"
+        height="100%"
+      />
       <TextSectionTwo />
     </main>
   </div>
