@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Logo = ({ src, alt }) => (
-  <div className="flex justify-center">
+  <div className="grid justify-center">
     <img src={src} alt={alt} />
   </div>
 );

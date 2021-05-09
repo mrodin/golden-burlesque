@@ -7,7 +7,7 @@ const Heading = ({ children, color, size }) => (
     className={cn("font-heading", "text-center", "uppercase", "leading-tight", {
       "text-white": color === Heading.COLOR.WHITE,
       "text-gold": color === Heading.COLOR.GOLD,
-      "text-6xl": size === Heading.SIZE.XL,
+      "text-3xl md:text-6xl": size === Heading.SIZE.XL,
       "text-2xl": size === Heading.SIZE.LG,
     })}
   >
