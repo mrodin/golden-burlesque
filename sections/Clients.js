@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import {
   MarginLayout,
@@ -7,6 +8,7 @@ import {
   Heading,
   Text,
   Logo,
+  Button,
 } from "components";
 
 const Clients = () => (
@@ -20,7 +22,7 @@ const Clients = () => (
       </Heading>
       <VerticalSpace size={VerticalSpace.SIZE.LG} />
       <Text color={Text.COLOR.GOLD} size={Text.SIZE.MD}>
-        A little selection of the clients we have worked with:
+        A little selection of our favourite clients:
       </Text>
       <VerticalSpace size={VerticalSpace.SIZE.SM} />
     </MarginLayout>
@@ -50,6 +52,14 @@ const Clients = () => (
       <VerticalSpace size={VerticalSpace.SIZE.LG} />
       <div className="grid grid-cols-logo justify-center items-center gap-4">
         <Logo src="img/logos/mercy-brown-bar.jpg" alt="Mercy Brown bar logo" />
+      </div>
+      <VerticalSpace size={VerticalSpace.SIZE.LG} />
+      <div className="flex justify-center">
+        <Link href="/contact" passHref>
+          <Button href="https://www.youtube.com/watch?v=-_85seQ6PkM" newTab>
+            Our trailer
+          </Button>
+        </Link>
       </div>
       <VerticalSpace size={VerticalSpace.SIZE.LG} />
       <Divider />

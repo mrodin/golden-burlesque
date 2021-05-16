@@ -16,25 +16,21 @@ const TextSectionOne = () => (
     <Divider />
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <Heading color={Heading.COLOR.GOLD} size={Heading.SIZE.LG}>
-      Old Hollywood glamour with a modern twist
+      Burlesque at its finest
     </Heading>
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <Text color={Text.COLOR.GOLD} size={Text.SIZE.MD}>
-      International burlesque stars Arden Delacour and Angelina Angelic have
-      joined forces to forge an experience beyond compare that will leave your
-      audience gasping for air.
+      Golden Burlesque is a burlesque show that will leave your audience gasping
+      for air. Let yourself be swept away by high-end burlesque performers,
+      exquisite costumes, professional dancers and a charming songstress while
+      sipping champagne.
     </Text>
     <VerticalSpace size={VerticalSpace.SIZE.SM} />
     <Text color={Text.COLOR.GOLD} size={Text.SIZE.MD}>
-      Angelina’s enchanting voice of honey and Arden’s moves as beautiful as
-      liquid gold blend into one of the finest melanges in European Burlesque -
-      ultra classic, uber glamorous, yet surprisingly refreshing. To top it all
-      off only the best burlesque and variety performers Europe has to offer
-      will join this dynamic duo to create the night of a lifetime.
-    </Text>
-    <VerticalSpace size={VerticalSpace.SIZE.SM} />
-    <Text color={Text.COLOR.GOLD} size={Text.SIZE.MD}>
-      You want to delight your audience?
+      This highly glamorous spectacle is led by internationally renowned
+      burlesque artists Arden Delacour and Angelina Angelic, featuring only the
+      best burlesque and variety performers Europe has to offer. This is the
+      ultimate burlesque experience!
     </Text>
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <div className="flex justify-center">

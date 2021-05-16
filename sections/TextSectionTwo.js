@@ -16,28 +16,25 @@ const TextSectionOne = () => (
     <Divider />
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <Heading color={Heading.COLOR.GOLD} size={Heading.SIZE.LG}>
-      Let us create an unforgettable experience!
+      A glamorous highlight for your event
     </Heading>
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <Text color={Text.COLOR.GOLD} size={Text.SIZE.MD}>
-      Golden Burlesque’s repertoire goes far beyond high-end burlesque.
+      Book a single burlesque dancer, a full burlesque show with hosting or a
+      custom-made themed event. We can’t wait to create an unforgettable evening
+      for you and your guests!
+    </Text>
+    <Text color={Text.COLOR.GOLD} size={Text.SIZE.SM}>
+      *Family-friendly options are available
     </Text>
     <VerticalSpace size={VerticalSpace.SIZE.SM} />
     <Text color={Text.COLOR.GOLD} size={Text.SIZE.MD}>
-      From single performances to multi-hour shows, from family friendly to
-      themed shows. How about a Great Gatsby themed event for 2020? Vintage
-      dancers, Fire eaters, live musicians, contortion artists, sword swallowers
-      and of course the very best burlesque performers - Golden Burlesque’s
-      Europe-wide roster of artists delivers!
-    </Text>
-    <VerticalSpace size={VerticalSpace.SIZE.SM} />
-    <Text color={Text.COLOR.GOLD} size={Text.SIZE.MD}>
-      You always wanted to witness the glory of your own custom burlesque show?
+      Do you want to know more?
     </Text>
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <div className="flex justify-center">
       <Link href="/contact" passHref>
-        <Button href={undefined}>Place a booking request</Button>
+        <Button>Get in touch</Button>
       </Link>
     </div>
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
