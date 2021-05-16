@@ -6,7 +6,7 @@ const Contact = () => (
     <PageHead title="Contact - Golden Burlesque" />
 
     <main className="bg-wine box-border">
-      <div className="flex flex-col h-screen">
+      <div className="flex flex-col min-h-screen">
         <Header />
         <ContactForm />
       </div>

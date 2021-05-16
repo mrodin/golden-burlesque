@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const TextInput = ({ name, label }) => (
-  <>
+  <div>
     <label
       className="font-serif tracking-wider text-lg text-gold"
       htmlFor={name}
@@ -16,7 +16,7 @@ const TextInput = ({ name, label }) => (
       id={name}
       name={name}
     />
-  </>
+  </div>
 );
 
 TextInput.propTypes = {

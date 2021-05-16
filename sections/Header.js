@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import { MarginLayout, VerticalSpace, Text } from "components";
 
@@ -8,11 +9,19 @@ const Header = () => (
     <MarginLayout>
       <div className="grid grid-cols-3 items-center">
         <div className="justify-self-start">
-          <Text size={Text.SIZE.SM} uppercase>
-            Book a show
-          </Text>
+          <Link href="/contact">
+            <a>
+              <Text size={Text.SIZE.SM} uppercase>
+                Book a show
+              </Text>
+            </a>
+          </Link>
         </div>
-        <Text uppercase>Golden Burlesque</Text>
+        <Link href="/">
+          <a>
+            <Text uppercase>Golden Burlesque</Text>
+          </a>
+        </Link>
       </div>
     </MarginLayout>
     <VerticalSpace size={VerticalSpace.SIZE.SM} />

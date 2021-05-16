@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const TextArea = ({ name, label }) => (
-  <>
+  <div>
     <label
       className="font-serif tracking-wider text-lg text-gold"
       htmlFor={name}
@@ -16,7 +16,7 @@ const TextArea = ({ name, label }) => (
       name={name}
       rows={5}
     />
-  </>
+  </div>
 );
 
 TextArea.propTypes = {

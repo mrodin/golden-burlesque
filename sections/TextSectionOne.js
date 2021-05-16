@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import {
   MarginLayout,
@@ -37,7 +38,9 @@ const TextSectionOne = () => (
     </Text>
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <div className="flex justify-center">
-      <Button href={undefined}>Get in touch</Button>
+      <Link href="/contact" passHref>
+        <Button>Get in touch</Button>
+      </Link>
     </div>
     <VerticalSpace size={VerticalSpace.SIZE.LG} />
     <Divider />
