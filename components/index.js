@@ -5,6 +5,7 @@ export { default as Image } from "./Image";
 export { default as Logo } from "./Logo";
 export { default as MarginLayout } from "./MarginLayout";
 export { default as PageHead } from "./PageHead";
+export { default as SubmitButton } from "./SubmitButton";
 export { default as Text } from "./Text";
 export { default as TextArea } from "./TextArea";
 export { default as TextInput } from "./TextInput";

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const TextArea = ({ name, label }) => (
+const TextArea = ({ name, label, required }) => (
   <div>
     <label
       className="font-serif tracking-wider text-lg text-gold"
@@ -15,6 +15,7 @@ const TextArea = ({ name, label }) => (
       id={name}
       name={name}
       rows={5}
+      required={required}
     />
   </div>
 );
@@ -22,6 +23,11 @@ const TextArea = ({ name, label }) => (
 TextArea.propTypes = {
   name: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
+  required: PropTypes.bool,
+};
+
+TextArea.defaultProps = {
+  required: false,
 };
 
 export default TextArea;
