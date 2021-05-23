@@ -15,7 +15,7 @@ const ContactForm = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10">
       <div className="flex justify-center px-8">
         <div className="w-3/4">
-          <form action="https://usebasin.com/f/af365fdfb083" method="POST">
+          <form action="https://usebasin.com/f/155a6dd8ab30" method="POST">
             <TextInput name="name" label="Name *" required />
             <VerticalSpace size={VerticalSpace.SIZE.SM} />
             <TextInput name="email" label="Email Address *" required />
