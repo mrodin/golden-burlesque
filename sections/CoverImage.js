@@ -1,6 +1,6 @@
 import React from "react";
 
-import { MarginLayout, Heading, Button, VerticalSpace } from "components";
+import { Heading, Button, VerticalSpace } from "components";
 
 const CoverImage = () => (
   <div className="flex flex-1 items-center justify-center h-full bg-intro bg-cover bg-center bg-no-repeat bg-fixed">

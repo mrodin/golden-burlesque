@@ -1,12 +1,26 @@
 import React from "react";
 
-import { Image } from "components";
+import { Carousel, Slide } from "components";
 
 const Gallery = () => (
-  <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-gallery md:grid-rows-gallery-full gap-1.5">
-    <Image src="img/gallery_1.jpg" alt="Golden Burlesque with champagne" />
-    <Image src="img/gallery_2.jpg" alt="Golden Burlesque posing in boudoir" />
-  </div>
+  <Carousel>
+    <Slide
+      imgSrc="img/gallery-1.jpg"
+      imgAlt="Golden Burlesque with champagne"
+    />
+    <Slide
+      imgSrc="img/gallery-2.jpg"
+      imgAlt="Golden Burlesque posing in boudoir"
+    />
+    <Slide
+      imgSrc="img/gallery-3.jpg"
+      imgAlt="Golden Burlesque posing in boudoir"
+    />
+    <Slide
+      imgSrc="img/gallery-4.jpg"
+      imgAlt="Golden Burlesque posing in boudoir"
+    />
+  </Carousel>
 );
 
 export default Gallery;

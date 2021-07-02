@@ -42,6 +42,4 @@ const ContactForm = () => (
   </>
 );
 
-ContactForm.propTypes = {};
-
 export default ContactForm;
