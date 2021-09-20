@@ -27,6 +27,9 @@ module.exports = {
       width: {
         "5xl": "64rem",
       },
+      padding: {
+        yt: "56.25%",
+      },
     },
   },
   variants: {

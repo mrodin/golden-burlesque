@@ -22,14 +22,17 @@ const Home = () => (
       <TextSectionOne />
       <Gallery />
       <TextSectionTwo />
-      <ReactPlayer
-        url="gb_trailer.mp4"
-        playing
-        loop
-        volume={0}
-        width="100%"
-        height="100%"
-      />
+      <div className="relative pt-yt">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=-_85seQ6PkM"
+          playing
+          loop
+          volume={0}
+          width="100%"
+          height="100%"
+          style={{ position: "absolute", top: "0", left: "0" }}
+        />
+      </div>
       <Clients />
     </main>
   </div>
