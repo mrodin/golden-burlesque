@@ -15,6 +15,7 @@ module.exports = {
         wine: "#4d0000",
       }),
       backgroundImage: (theme) => ({
+        introMobile: "url('/img/intro-mobile.jpg')",
         intro: "url('/img/intro.jpg')",
       }),
       gridTemplateColumns: {
