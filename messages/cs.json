@@ -1,0 +1,37 @@
+{
+  "header": {
+    "bookShow": "Objednat show",
+    "goldenBurlesque": "Golden Burlesque"
+  },
+  "cover": {
+    "goldenBurlesque": "Golden Burlesque",
+    "button": "Video upoutávka"
+  },
+  "sectionOne": {
+    "title": "Burleska ve své nejlepší podobě",
+    "p1": "Golden Burlesque je podmanivá burleskní show, při které se divákům bude tajit dech. Pohodlně se posaďte se sklenkou šampaňského v ruce a nechte se unést špičkovými burleskními umělci, opulentními kostýmy, profesionálními tanečníky a šarmantní zpěvačkou.",
+    "p2": "Tuto okouzlující podívanou vedou mezinárodně uznávané burleskní umělkyně Angelina Angelic a Arden Delacour ve spolupráci s těmi nejlepšími burleskními a varietními performery, jaké Evropa nabízí. Dokonalý burleskní zážitek.",
+    "button": "Kontaktujte nás"
+  },
+  "sectionTwo": {
+    "title": "Zlatý hřeb Vašeho večera",
+    "p1": "Objednejte si jednu burleskní tanečnici, celou burleskní show s moderováním nebo tematickou show na míru. Nemůžeme se dočkat, až pro Vás a Vaše hosty vytvoříme nezapomenutelný večer!",
+    "note": "* Nabízíme také decentní family-friendly verzi",
+    "p2": "Chcete se dozvědět více?",
+    "button": "Kontaktujte nás"
+  },
+  "clients": {
+    "title": "Sídlíme v Berlíně a Praze, vystupujeme po celém světě",
+    "p1": "Malý výběr našich oblíbených klientů:",
+    "p2": "Navštivte naši měsíční, vždy vyprodanou show v Mercy Brown v Krakově.",
+    "button": "Naše upoutávka"
+  },
+  "contact": {
+    "name": "Jméno *",
+    "email": "E-mailová adresa *",
+    "company": "Společnost / Typ události",
+    "message": "Zpráva *",
+    "back": "Zpět",
+    "send": "Odeslat"
+  }
+}

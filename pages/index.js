@@ -38,4 +38,12 @@ const Home = () => (
   </div>
 );
 
+export function getStaticProps({ locale }) {
+  return {
+    props: {
+      messages: require(`../messages/${locale}.json`),
+    },
+  };
+}
+
 export default Home;

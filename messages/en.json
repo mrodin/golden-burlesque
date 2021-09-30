@@ -1,0 +1,37 @@
+{
+  "header": {
+    "bookShow": "Book a show",
+    "goldenBurlesque": "Golden Burlesque"
+  },
+  "cover": {
+    "goldenBurlesque": "Golden Burlesque",
+    "button": "Take a peek"
+  },
+  "sectionOne": {
+    "title": "Burlesque at its finest",
+    "p1": "Golden Burlesque is a burlesque show that will leave your audience gasping for air. Let yourself be swept away by high-end burlesque performers, exquisite costumes, professional dancers and a charming songstress while sipping champagne.",
+    "p2": "This highly glamorous spectacle is led by internationally renowned burlesque artists Arden Delacour and Angelina Angelic, featuring only the best burlesque and variety performers Europe has to offer. This is the ultimate burlesque experience!",
+    "button": "Get in touch"
+  },
+  "sectionTwo": {
+    "title": "A glamorous highlight for your event",
+    "p1": "Book a single burlesque dancer, a full burlesque show with hosting or a custom-made themed event. We can’t wait to create an unforgettable evening for you and your guests!",
+    "note": "* Family-friendly options are available",
+    "p2": "Do you want to know more?",
+    "button": "Get in touch"
+  },
+  "clients": {
+    "title": "Based in Berlin and Prague, booken around Europe",
+    "p1": "A little selection of our favourite clients:",
+    "p2": "Visit our monthly, always sold out show at Mercy Brown (Krakow).",
+    "button": "Out trailer"
+  },
+  "contact": {
+    "name": "Name *",
+    "email": "Email Address *",
+    "company": "Company / Event type",
+    "message": "Message *",
+    "back": "Back",
+    "send": "Send"
+  }
+}

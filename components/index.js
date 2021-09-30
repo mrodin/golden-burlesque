@@ -3,6 +3,7 @@ export { Carousel, Slide } from "./carousel";
 export { default as Divider } from "./Divider";
 export { default as Heading } from "./Heading";
 export { default as Image } from "./Image";
+export { default as LocaleSelect } from "./LocaleSelect";
 export { default as Logo } from "./Logo";
 export { default as MarginLayout } from "./MarginLayout";
 export { default as PageHead } from "./PageHead";
