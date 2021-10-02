@@ -7,8 +7,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      heading: ["Train One", "cursive"],
       serif: ["Playfair Display", "serif"],
+      trainOne: ["Train One", "cursive"],
     },
     extend: {
       backgroundColor: (theme) => ({

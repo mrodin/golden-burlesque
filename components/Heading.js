@@ -4,7 +4,7 @@ import cn from "classnames";
 
 const Heading = ({ children, color, size }) => (
   <p
-    className={cn("font-heading", "text-center", "uppercase", "leading-tight", {
+    className={cn("font-serif", "text-center", "uppercase", "leading-tight", {
       "text-white": color === Heading.COLOR.WHITE,
       "text-gold": color === Heading.COLOR.GOLD,
       "text-3xl md:text-6xl": size === Heading.SIZE.XL,

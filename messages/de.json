@@ -28,10 +28,10 @@
   },
   "contact": {
     "name": "Name *",
-    "email": "Email Address *",
-    "company": "Company / Event type",
-    "message": "Message *",
-    "back": "Back",
-    "send": "Send"
+    "email": "Emailadresse *",
+    "company": "Firma / Anlass",
+    "message": "Nachricht *",
+    "back": "Zurück",
+    "send": "Senden"
   }
 }
